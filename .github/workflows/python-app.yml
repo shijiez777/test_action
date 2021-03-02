@@ -34,7 +34,9 @@ jobs:
     - name: run pylint
       run: |
         pylint src/*.py
-    
+    - name: run isort
+      run: |
+        isort src/*.py
     - name: Test with pytest
       run: |
         export PYTHONPATH=src
