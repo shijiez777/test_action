@@ -2,3 +2,6 @@ black
 isort
 pytest
 pylint
+pandas
+numpy
+scikit-learn
